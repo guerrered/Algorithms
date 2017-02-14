@@ -1,14 +1,14 @@
 
 public class matrix {
-
+/*
 	public static void main(String[] args){
 		int n = 4;
-/*		int[][] matrix = formMatrix(n);
+		int[][] matrix = formMatrix(n);
 		printMat(matrix, n);
-		int[][] mat = matrixAlgorithm(matrix, n);
+		matrix = matrixAlgorithm(matrix, n);
 		System.out.println();
-		printMat(mat,n);
-*/
+		printMat(matrix,n);
+		System.out.println();
 		int[][] example = new int[n][n];
 		example[0][0] = 3;
 		example[1][1] = 2;
@@ -20,7 +20,7 @@ public class matrix {
 		printMat(example, n);
 		
 	}
-	
+	*/
 	public static int[][] formMatrix(int n){
 		int[][] mat = new int[n][n];
 		int i = 0;
@@ -45,7 +45,6 @@ public class matrix {
 	}
 	
 	public static int[][] matrixAlgorithm(int[][] matrix, int n){
-		//staring at 0, 1
 		int iterator = 1;
 		int i, j;
 		while(iterator < n){
